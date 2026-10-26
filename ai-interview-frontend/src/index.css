@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Enable class-based dark mode */
+/* stylelint-disable-next-line at-rule-no-unknown */
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
