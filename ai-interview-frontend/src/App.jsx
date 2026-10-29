@@ -13,7 +13,7 @@ import { useEffect } from "react";
 // =====================================================
 
 import ProtectedRoute from "./pages/ProtectedRoute";
-import PublicRoute from "./pages/publicRoute";
+import PublicRoute from "./pages/PublicRoute";
 
 
 // =====================================================
@@ -23,8 +23,8 @@ import PublicRoute from "./pages/publicRoute";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 
-import ForgotPassword from "./pages/forgotPassward";
-import VerifyOtp from "./pages/Verifyotp";
+import ForgotPassword from "./pages/ForgotPassward";
+import VerifyOtp from "./pages/VerifyOtp";
 import ResetPassword from "./pages/ResetPassword";
 
 
